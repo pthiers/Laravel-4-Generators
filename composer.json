@@ -25,5 +25,10 @@
         "psr-0": {
             "Way\\Generators": "src/"
         }
+    },
+    "autoload-dev": {
+        "files":[
+            "src/helpers.php"
+        ]
     }
 }
