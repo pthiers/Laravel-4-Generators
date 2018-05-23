@@ -28,7 +28,7 @@
     },
     "autoload-dev": {
         "files":[
-            "src/helpers.php"
+            "src/Way/Generators/helpers.php"
         ]
     }
 }
