@@ -16,7 +16,7 @@ return [
 
     'scaffold_controller_template_path' => base_path('vendor/xethron/laravel-4-generators/src/Way/Generators/templates/scaffolding/controller.txt'),
 
-    'migration_template_path' => base_path('vendor/pthiers/laravel-4-generators/src/Way/Generators/templates/migration.txt'),
+    'migration_template_path' => base_path('vendor/pthiers/laravel-lumen-4-generators/src/Way/Generators/templates/migration.txt'),
 
     'seed_template_path' => base_path('vendor/xethron/laravel-4-generators/src/Way/Generators/templates/seed.txt'),
 
@@ -29,9 +29,9 @@ return [
     |--------------------------------------------------------------------------
     |
     */
-    'model_target_path'   => app_path(),
+    'model_target_path'   => base_path('app'),
 
-    'controller_target_path'   => app_path('Http/Controllers'),
+    'controller_target_path'   => base_path('app/Http/Controllers'),
 
     'migration_target_path'   => base_path('database/migrations'),
 
