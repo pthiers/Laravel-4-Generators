@@ -16,7 +16,7 @@ return [
 
     'scaffold_controller_template_path' => base_path('vendor/xethron/laravel-4-generators/src/Way/Generators/templates/scaffolding/controller.txt'),
 
-    'migration_template_path' => base_path('vendor/xethron/laravel-4-generators/src/Way/Generators/templates/migration.txt'),
+    'migration_template_path' => base_path('vendor/pthiers/laravel-4-generators/src/Way/Generators/templates/migration.txt'),
 
     'seed_template_path' => base_path('vendor/xethron/laravel-4-generators/src/Way/Generators/templates/seed.txt'),
 
